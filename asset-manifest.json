@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/puneetdhiman/static/css/main.b1e04128.chunk.css",
+    "main.js": "/puneetdhiman/static/js/main.ca68cb10.chunk.js",
+    "main.js.map": "/puneetdhiman/static/js/main.ca68cb10.chunk.js.map",
+    "runtime-main.js": "/puneetdhiman/static/js/runtime-main.92a30669.js",
+    "runtime-main.js.map": "/puneetdhiman/static/js/runtime-main.92a30669.js.map",
+    "static/js/2.8bc050b3.chunk.js": "/puneetdhiman/static/js/2.8bc050b3.chunk.js",
+    "static/js/2.8bc050b3.chunk.js.map": "/puneetdhiman/static/js/2.8bc050b3.chunk.js.map",
+    "index.html": "/puneetdhiman/index.html",
+    "static/css/main.b1e04128.chunk.css.map": "/puneetdhiman/static/css/main.b1e04128.chunk.css.map",
+    "static/js/2.8bc050b3.chunk.js.LICENSE.txt": "/puneetdhiman/static/js/2.8bc050b3.chunk.js.LICENSE.txt",
+    "static/media/html.9e2517dc.png": "/puneetdhiman/static/media/html.9e2517dc.png",
+    "static/media/svg-cropped.b940698a.png": "/puneetdhiman/static/media/svg-cropped.b940698a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92a30669.js",
+    "static/js/2.8bc050b3.chunk.js",
+    "static/css/main.b1e04128.chunk.css",
+    "static/js/main.ca68cb10.chunk.js"
+  ]
+}
