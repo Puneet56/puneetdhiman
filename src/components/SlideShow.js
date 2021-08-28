@@ -27,7 +27,7 @@ const SlideShow = () => {
 			<img
 				src={image.name}
 				alt='logo'
-				className={`${image.animationdd} p-8 w-3/4 md:h-96 md:w-96 transition-all `}
+				className={`${image.animation} p-8 w-3/4 md:h-96 md:w-96 transition-all `}
 			></img>
 		</div>
 	);
