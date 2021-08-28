@@ -26,6 +26,10 @@ html {
 		inset 0 1px 40px 0 rgb(227 222 255 / 15%);
 }
 
+.btn {
+	@apply px-5 mx-1.5 border-b-2 border-solid border-gray-700 hover:border-white transform transition;
+}
+
 @keyframes pageload {
 	0% {
 		opacity: 0;
