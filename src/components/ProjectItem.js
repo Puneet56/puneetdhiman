@@ -1,7 +1,7 @@
 const ProjectItem = (props) => {
 	return (
-		<div className='card-crystal text-white flex flex-col items-center justify-center m-6 transform hover:scale-105 transition-all w-11/12'>
-			<p className='text-xl font-bold p-4 pt-0 mx-auto hover:text-purple-800 cursor-pointer'>
+		<div className='card-crystal text-white flex flex-col items-center justify-center m-4 mx-auto transform hover:scale-105 transition-all w-11/12'>
+			<p className='text-xl font-bold p-4 pt-0 mx-auto  hover:text-indigo-800 cursor-pointer'>
 				<a href={props.data.link} target='_blank' rel='noreferrer'>
 					{props.data.name}
 				</a>
