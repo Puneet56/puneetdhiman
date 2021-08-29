@@ -16,7 +16,10 @@ const SocialLinks = (props) => {
 			className={`flex flex-row items-center justify-around w-56 h-12 ${props.styles} `}
 		>
 			{data.map((element) => (
-				<a href={element.link}>
+				<a
+					href={element.link}
+					className='transform transition-all hover:scale-125'
+				>
 					<img
 						className={`${props.size}`}
 						src={element.name}
