@@ -4,11 +4,11 @@ import SlideShow from './SlideShow';
 const HeroSection = () => {
 	return (
 		<>
-			<div className='min-h-screen w-screen overflow-x-hidden flex  items-center justify-center flex-col md:flex-row -z-20'>
+			<div className='min-h-screen w-screen overflow-x-hidden flex  items-center justify-center flex-col md:flex-row -z-40-'>
 				<div className='absolute right-0 -top-0 my-flip'>
 					<img src={blob} alt='blob'></img>
 				</div>
-				<div className='w-full h-5/6 flex justify-center items-start flex-col relative -z-40'>
+				<div className='w-full h-5/6 flex justify-center items-start flex-col relative mt-10'>
 					<p className='ml-8 mt-12 md:mx-10 md:mt-28 text-gray-100 text-3xl md:text-5xl sm:text-4xl'>
 						Hey,
 					</p>

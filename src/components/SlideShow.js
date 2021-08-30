@@ -26,11 +26,11 @@ const SlideShow = () => {
 	}, []);
 
 	return (
-		<div className='flex w-full h-100 flex-row items-center justify-center fade-in opacity-100 m-4'>
+		<div className='flex w-80 h-80 md:w-full md:h-100 flex-row items-center justify-center fade-in opacity-100 m-4'>
 			<img
 				src={image.name}
 				alt='logo'
-				className={`${image.animation} p-8 w-3/4 md:h-96 md:w-96 transition-all `}
+				className={`${image.animation} p-8 w-100 h-100 md:h-96 md:w-96 transition-all `}
 			></img>
 		</div>
 	);
