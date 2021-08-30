@@ -5,10 +5,13 @@ import linkedin from '../assets/linkedin.svg';
 
 const SocialLinks = (props) => {
 	let data = [
-		{ name: facebook, link: '/' },
-		{ name: github, link: '/' },
-		{ name: instagram, link: '/' },
-		{ name: linkedin, link: '/' },
+		{ name: facebook, link: 'https://www.facebook.com/puneet.dhiman.127/' },
+		{ name: github, link: 'https://github.com/Puneet56' },
+		{ name: instagram, link: 'https://www.instagram.com/puneet.dhiman.127/' },
+		{
+			name: linkedin,
+			link: 'https://www.linkedin.com/in/puneet-dhiman-9b29a0175/',
+		},
 	];
 
 	return (
@@ -18,6 +21,8 @@ const SocialLinks = (props) => {
 			{data.map((element) => (
 				<a
 					href={element.link}
+					target='_blank'
+					rel='noreferrer'
 					className='transform transition-all hover:scale-125'
 				>
 					<img
