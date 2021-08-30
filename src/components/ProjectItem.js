@@ -8,10 +8,20 @@ const ProjectItem = (props) => {
 			</p>
 			<p className='p-4 pt-0'>{props.data.description}</p>
 			<div className='flex flex-row justify-center items-center'>
-				<a href={props.data.link} className='btn'>
+				<a
+					href={props.data.link}
+					className='btn'
+					target='_blank'
+					rel='noreferrer'
+				>
 					Open
 				</a>
-				<a href={props.data.code} className='btn'>
+				<a
+					href={props.data.code}
+					className='btn'
+					target='_blank'
+					rel='noreferrer'
+				>
 					View Code
 				</a>
 			</div>
