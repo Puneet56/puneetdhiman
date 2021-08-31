@@ -16,7 +16,7 @@ const SocialLinks = (props) => {
 
 	return (
 		<div
-			className={`flex flex-row items-center justify-around w-56 h-12 ${props.styles} `}
+			className={`flex flex-row items-center justify-around z-30 w-56 h-12 ${props.styles} `}
 		>
 			{data.map((element) => (
 				<a

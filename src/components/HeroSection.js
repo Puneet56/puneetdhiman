@@ -4,7 +4,7 @@ import SlideShow from './SlideShow';
 const HeroSection = () => {
 	return (
 		<>
-			<div className='min-h-screen w-screen overflow-x-hidden flex  items-center justify-center flex-col md:flex-row -z-40-'>
+			<div className='min-h-screen w-screen overflow-x-hidden flex items-center justify-center flex-col md:flex-row -z-40'>
 				<div className='absolute right-0 -top-0 my-flip'>
 					<img src={blob} alt='blob'></img>
 				</div>
