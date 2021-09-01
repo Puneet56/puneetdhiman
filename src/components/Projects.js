@@ -4,15 +4,25 @@ const Projects = () => {
 	let data = [
 		{
 			name: 'ToDo List App',
-			description: 'Simple ToDo app',
+			description: [
+				'Todo App to Store Tasks',
+				'User Login Functionality',
+				'Data Saved on Server',
+			],
 			link: 'https://puneet56-todo.netlify.app/',
 			code: 'https://github.com/Puneet56/to-do-list',
+			stack: ['react', 'express', 'neDB', 'REST'],
 		},
 		{
 			name: 'Expense Manager',
-			description: 'Simple App to manage expenses',
+			description: [
+				'Simple App to manage expenses',
+				'Firebase as Backend',
+				'User Login functionality',
+			],
 			link: 'https://puneet56.github.io/expense-host/',
 			code: 'https://github.com/Puneet56/expense-host',
+			stack: ['react', 'firebase', 'REST'],
 		},
 	];
 

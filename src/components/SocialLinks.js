@@ -23,6 +23,7 @@ const SocialLinks = (props) => {
 					href={element.link}
 					target='_blank'
 					rel='noreferrer'
+					key={element.name}
 					className='transform transition-all hover:scale-125'
 				>
 					<img
