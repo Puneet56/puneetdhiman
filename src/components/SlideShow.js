@@ -1,6 +1,7 @@
 import reactLogo from '../assets/react.png';
 import htmlLogo from '../assets/html.png';
 import p5Logo from '../assets/p5js.svg';
+import firebase from '../assets/firebase.png';
 
 import { useState, useEffect, useRef } from 'react';
 
@@ -9,6 +10,7 @@ const SlideShow = () => {
 		{ name: reactLogo, animation: 'animate-spin' },
 		{ name: htmlLogo, animation: 'animate-bounce' },
 		{ name: p5Logo, animation: 'animate-pulse' },
+		{ name: firebase, animation: 'animate-pulse' },
 	]);
 	const [image, setImage] = useState(
 		images.current[Math.floor(Math.random() * images.current.length)]

@@ -13,7 +13,7 @@ const ProjectItem = (props) => {
 					</h3>
 				))}
 			</div>
-			<div className='flex flex-row justify-center items-center'>
+			<div className='absolute bottom-20 flex flex-row justify-center items-center'>
 				<a
 					href={props.data.link}
 					className='btn'

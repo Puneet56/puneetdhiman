@@ -3,6 +3,17 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
 	let data = [
 		{
+			name: 'FireChat',
+			description: [
+				'Global Chat App',
+				'User Login Functionality',
+				'Realtime Chat Using Firebase Firestore',
+			],
+			link: 'https://puneet56-firechat.netlify.app/',
+			code: 'https://github.com/Puneet56/FireChat',
+			stack: ['react', 'firebase'],
+		},
+		{
 			name: 'ToDo List App',
 			description: [
 				'Todo App to Store Tasks',
