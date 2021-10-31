@@ -1,5 +1,6 @@
 import blob from '../assets/svg-cropped.png';
 import SlideShow from './SlideShow';
+import resume from '../assets/resume.pdf';
 
 const HeroSection = () => {
 	return (
@@ -21,19 +22,35 @@ const HeroSection = () => {
 					<p className='m-1.5 ml-8 md:mx-10 text-gray-100 text-xl md:text-3xl sm:text-2xl'>
 						Love Building Things
 					</p>
-					<div
-						className='mt-8 ml-10 rounded-full
+					<div className='flex'>
+						<div
+							className='mt-8 ml-10 rounded-full
 				 bg-gradient-to-tr from-blue-600 to-pink-700 min-h-4 h-16 w-36 md:h-20 md:w-48 flex items-center justify-center md:p-1.5 p-1 shadow-md transform transition hover:scale-90'
-					>
-						<a
-							href='https://www.linkedin.com/in/puneet-dhiman-9b29a0175/'
-							target='_blank'
-							rel='noreferrer'
-							className='text-white text-lg
-						 font-bold bg-mycolor rounded-full w-full h-full flex items-center justify-center'
 						>
-							Connect
-						</a>
+							<a
+								href='https://www.linkedin.com/in/puneet-dhiman-9b29a0175/'
+								target='_blank'
+								rel='noreferrer'
+								className='text-white text-lg
+						 font-bold bg-mycolor rounded-full w-full h-full flex items-center justify-center'
+							>
+								Connect
+							</a>
+						</div>
+						<div
+							className='mt-8 ml-10 rounded-full
+				 bg-gradient-to-tr from-blue-600 to-pink-700 min-h-4 h-16 w-36 md:h-20 md:w-48 flex items-center justify-center md:p-1.5 p-1 shadow-md transform transition hover:scale-90'
+						>
+							<a
+								href={resume}
+								target='_blank'
+								rel='noreferrer'
+								className='text-white text-lg
+						 font-bold bg-mycolor rounded-full w-full h-full flex items-center justify-center'
+							>
+								See Resume
+							</a>
+						</div>
 					</div>
 				</div>
 				<SlideShow />
