@@ -1,12 +1,12 @@
 const ProjectItem = (props) => {
 	return (
 		<div className='relative card-crystal text-white min-h-50 flex flex-col items-center justify-start m-4 mx-auto transform hover:scale-105 transition-all w-96 md:w-2/5'>
-			<p className='text-xl font-bold p-4 pt-0 mx-auto mt-4 hover:text-indigo-800 cursor-pointer'>
+			<p className='text-xl font-bold px-4 pb-2 pt-0 mx-auto mt-2 hover:text-indigo-800 cursor-pointer'>
 				<a href={props.data.link} target='_blank' rel='noreferrer'>
 					{props.data.name}
 				</a>
 			</p>
-			<div className='p-4 pt-0 text-center'>
+			<div className='p-2 pt-0 text-center'>
 				{props.data.description.map((item) => (
 					<h3 key={item} className='text-center'>
 						{item}
