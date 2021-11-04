@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d57b0ce8.chunk.css",
-    "main.js": "/static/js/main.5c316c5a.chunk.js",
-    "main.js.map": "/static/js/main.5c316c5a.chunk.js.map",
+    "main.css": "/static/css/main.3f37b987.chunk.css",
+    "main.js": "/static/js/main.7bd592a6.chunk.js",
+    "main.js.map": "/static/js/main.7bd592a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.278b23ff.js",
     "runtime-main.js.map": "/static/js/runtime-main.278b23ff.js.map",
     "static/js/2.8bc050b3.chunk.js": "/static/js/2.8bc050b3.chunk.js",
     "static/js/2.8bc050b3.chunk.js.map": "/static/js/2.8bc050b3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d57b0ce8.chunk.css.map": "/static/css/main.d57b0ce8.chunk.css.map",
+    "static/css/main.3f37b987.chunk.css.map": "/static/css/main.3f37b987.chunk.css.map",
     "static/js/2.8bc050b3.chunk.js.LICENSE.txt": "/static/js/2.8bc050b3.chunk.js.LICENSE.txt",
     "static/media/facebook.5fd0421e.svg": "/static/media/facebook.5fd0421e.svg",
     "static/media/firebase.2c54f4d7.png": "/static/media/firebase.2c54f4d7.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.278b23ff.js",
     "static/js/2.8bc050b3.chunk.js",
-    "static/css/main.d57b0ce8.chunk.css",
-    "static/js/main.5c316c5a.chunk.js"
+    "static/css/main.3f37b987.chunk.css",
+    "static/js/main.7bd592a6.chunk.js"
   ]
 }
