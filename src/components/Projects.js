@@ -9,10 +9,10 @@ const Projects = () => {
 				'User Login Functionality',
 				'Create and See Posts with image upload also',
 				'Follow, Unfollow User. Upload Profile Pictures',
-				'Custom Backend Made using Express, MongoDB as Database',
+				'Backend using Express & MongoDB',
 			],
 			link: 'https://socialsnap.netlify.app/',
-			code: 'https://github.com/Puneet56/FireChat',
+			code: 'https://github.com/Puneet56/social-snap-full',
 			stack: ['MERN', 'JWT'],
 		},
 		{
