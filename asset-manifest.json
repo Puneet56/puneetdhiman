@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3f37b987.chunk.css",
-    "main.js": "/static/js/main.7bd592a6.chunk.js",
-    "main.js.map": "/static/js/main.7bd592a6.chunk.js.map",
+    "main.js": "/static/js/main.18390d4f.chunk.js",
+    "main.js.map": "/static/js/main.18390d4f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.278b23ff.js",
     "runtime-main.js.map": "/static/js/runtime-main.278b23ff.js.map",
     "static/js/2.8bc050b3.chunk.js": "/static/js/2.8bc050b3.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.3f37b987.chunk.css.map": "/static/css/main.3f37b987.chunk.css.map",
     "static/js/2.8bc050b3.chunk.js.LICENSE.txt": "/static/js/2.8bc050b3.chunk.js.LICENSE.txt",
+    "static/media/PuneetdhimanResume.f18a8786.pdf": "/static/media/PuneetdhimanResume.f18a8786.pdf",
     "static/media/facebook.5fd0421e.svg": "/static/media/facebook.5fd0421e.svg",
     "static/media/firebase.2c54f4d7.png": "/static/media/firebase.2c54f4d7.png",
     "static/media/github.d999770a.svg": "/static/media/github.d999770a.svg",
@@ -17,13 +18,12 @@
     "static/media/instagram.0276d588.svg": "/static/media/instagram.0276d588.svg",
     "static/media/linkedin.47d303d1.svg": "/static/media/linkedin.47d303d1.svg",
     "static/media/p5js.7c506fc4.svg": "/static/media/p5js.7c506fc4.svg",
-    "static/media/resume.ae30ea5e.pdf": "/static/media/resume.ae30ea5e.pdf",
     "static/media/svg-cropped.b940698a.png": "/static/media/svg-cropped.b940698a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.278b23ff.js",
     "static/js/2.8bc050b3.chunk.js",
     "static/css/main.3f37b987.chunk.css",
-    "static/js/main.7bd592a6.chunk.js"
+    "static/js/main.18390d4f.chunk.js"
   ]
 }
