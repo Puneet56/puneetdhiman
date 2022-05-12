@@ -1,6 +1,5 @@
 import blob from '../assets/svg-cropped.png';
 import SlideShow from './SlideShow';
-import resume from '../assets/resume.pdf';
 
 const HeroSection = () => {
 	return (
@@ -37,7 +36,7 @@ const HeroSection = () => {
 								Connect
 							</a>
 						</div>
-						<div
+						{/* <div
 							className='mt-8 ml-10 rounded-full
 				 bg-gradient-to-tr from-blue-600 to-pink-700 min-h-4 h-16 w-36 md:h-20 md:w-48 flex items-center justify-center md:p-1.5 p-1 shadow-md transform transition hover:scale-90'
 						>
@@ -50,7 +49,7 @@ const HeroSection = () => {
 							>
 								See Resume
 							</a>
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<SlideShow />
