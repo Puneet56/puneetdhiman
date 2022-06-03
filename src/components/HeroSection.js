@@ -1,6 +1,6 @@
 import blob from '../assets/svg-cropped.png';
 import SlideShow from './SlideShow';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/PuneetdhimanResume.pdf';
 
 const HeroSection = () => {
 	return (
