@@ -42,6 +42,7 @@ const YourComponent: React.FC<ComponentProps> = (props: ComponentProps) => {
 		p5.pop();
 
 		p5.ellipse(310, 250, 30);
+		//how to get angle???
 		console.log(p5.atan(p5.mouseX / p5.mouseY));
 	};
 
