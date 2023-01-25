@@ -1,6 +1,4 @@
-import HeroSection from "@/components/hero-section";
 import YourComponent from "@/components/p5-sketch";
-import Project from "@/components/projects";
 import { Inter } from "@next/font/google";
 import Head from "next/head";
 
@@ -16,9 +14,9 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className="bg-gray-700 text-white">
-				<HeroSection />
+				{/* <HeroSection /> */}
 				<YourComponent />
-				<Project />
+				{/* <Project /> */}
 			</main>
 		</>
 	);
