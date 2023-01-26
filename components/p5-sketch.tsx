@@ -18,18 +18,11 @@ let dynamicHeight = 600;
 const YourComponent: React.FC<ComponentProps> = (props: ComponentProps) => {
 	let font: p5Types.Font;
 	const preload = (p5: p5Types) => {
-		font = p5.loadFont("/public/font.ttf");
+		font = p5.loadFont("public/font.ttf");
 	};
 
 	const setup = (p5: p5Types, canvasParentRef: Element) => {
 		p5.createCanvas(dynamicWidth, dynamicHeight).parent(canvasParentRef);
-
-		const points = font.textToPoints("Puneet", 100, 200, 24, {
-			sampleFactor: 0.25,
-			simplifyThreshold: 0,
-		});
-
-		console.log({ points });
 	};
 
 	const draw = (p5: p5Types) => {
