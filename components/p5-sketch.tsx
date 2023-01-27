@@ -17,9 +17,7 @@ let dynamicHeight = 600;
 
 const YourComponent: React.FC<ComponentProps> = (props: ComponentProps) => {
 	let font: p5Types.Font;
-	const preload = (p5: p5Types) => {
-		font = p5.loadFont("public/font.ttf");
-	};
+	const preload = (p5: p5Types) => {};
 
 	const setup = (p5: p5Types, canvasParentRef: Element) => {
 		p5.createCanvas(dynamicWidth, dynamicHeight).parent(canvasParentRef);
