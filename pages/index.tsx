@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
-import Projects from '@/components/Projects';
 import SocialLinks from '@/components/SocialLinks';
+import Projects from '../components/Projects';
 
 function App() {
 	return (
