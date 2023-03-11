@@ -60,19 +60,19 @@ let data = [
 	},
 ];
 
-const Projects: React.FC = () => {
+const ProjectsList: React.FC = () => {
 	return (
-		<>
-			<h1 className="mx-auto mb-3 border-b-8 border-solid border-indigo-800 p-4 text-6xl font-normal text-white">
+		<div className="flex flex-col items-center justify-start">
+			<p className="mx-auto mb-3 border-b-8 border-solid border-indigo-800 p-4 text-6xl font-normal text-white">
 				Projects
-			</h1>
+			</p>
 			<div className="flex w-full flex-row flex-wrap items-center justify-center">
 				{data.map(project => (
 					<ProjectItem data={project} key={project.name} />
 				))}
 			</div>
-		</>
+		</div>
 	);
 };
 
-export default Projects;
+export default ProjectsList;
