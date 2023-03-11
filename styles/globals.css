@@ -2,8 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+html {
+	background-color: #0f0823;
+}
 
-* {
-	font-family: "DM Sans", sans-serif;
+.my-flip {
+	transform: scale(-1, 1);
+}
+
+.fade-in {
+	animation: pageload 0.9s ease-in;
+}
+
+.card-crystal {
+	padding: 32px 22px;
+	min-height: 350px !important;
+	border-radius: 50px;
+	background-color: rgba(255, 255, 255, 0.01);
+	box-shadow: inset 0 39px 56px -56px rgb(255 255 255 / 25%),
+		inset 0 7px 21px 0 rgb(255 255 255 / 20%),
+		inset 0 -82px 68px 0 rgb(96 68 144 / 18%),
+		inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
+		inset 0 4px 18px 0 rgb(154 146 210 / 15%),
+		inset 0 1px 40px 0 rgb(227 222 255 / 15%);
+}
+
+.btn {
+	@apply mx-1.5 transform border-b-2 border-solid border-gray-700 px-5 transition hover:border-white;
+}
+
+@keyframes pageload {
+	0% {
+		opacity: 0;
+	}
 }

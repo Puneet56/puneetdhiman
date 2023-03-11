@@ -1,18 +1,17 @@
-import { Inter } from "@next/font/google";
-import Head from "next/head";
+import Footer from '@/components/Footer';
+import HeroSection from '@/components/HeroSection';
+import Projects from '@/components/Projects';
+import SocialLinks from '@/components/SocialLinks';
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+function App() {
 	return (
-		<>
-			<Head>
-				<title>Puneet Dhiman</title>
-				<meta name="description" content="Puneet Dhiman- Portfolio" />
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
-			<main>Hello</main>
-		</>
+		<div className="relative flex flex-col items-center justify-center overflow-x-hidden">
+			<SocialLinks iconSizeClass="w-6 h-6" className="absolute left-4 top-4" />
+			<HeroSection />
+			<Projects />
+			<Footer />
+		</div>
 	);
 }
+
+export default App;

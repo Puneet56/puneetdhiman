@@ -1,12 +1,6 @@
-import Header from "@/components/header";
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import '@/styles/globals.css';
+import type { AppProps } from 'next/app';
 
 export default function App({ Component, pageProps }: AppProps) {
-	return (
-		<div className="bg-zinc-800 text-white">
-			<Header />
-			<Component {...pageProps} />
-		</div>
-	);
+	return <Component {...pageProps} />;
 }
