@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 html {
-	background-color: #0f0823;
+	background-color: #1a1a1a;
+}
+
+.font-text {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-code {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.animate-slide-down {
+	animation: slide-down 0.5s ease-in-out;
 }
 
 .my-flip {
