@@ -10,7 +10,7 @@ const HeroSection = () => {
 					key={index}
 					className="animate-pop text-4xl text-white md:text-7xl"
 					style={{
-						animationDelay: `${index * 0.1}s`,
+						animationDelay: `${index * 0.07}s`,
 					}}
 				>
 					{letter}
