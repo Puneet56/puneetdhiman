@@ -27,7 +27,7 @@ const Header = () => {
 		<header className="fade-in z-20 flex items-center justify-between py-4 text-white">
 			<a
 				href="/"
-				className="font-text flex gap-2 px-12 text-xl font-light sm:text-2xl"
+				className="font-text flex gap-2 px-6 text-xl font-light sm:px-12 sm:text-2xl"
 			>
 				<Image
 					alt="logo"
@@ -40,7 +40,7 @@ const Header = () => {
 			<ul className="item font-code hidden justify-evenly gap-4 px-12 text-lg sm:flex">
 				<MenuList />
 			</ul>
-			<button className="mr-12 text-3xl sm:hidden" onClick={handleMenuClick}>
+			<button className="mr-6 text-3xl sm:hidden" onClick={handleMenuClick}>
 				<RxHamburgerMenu />
 			</button>
 			<div
