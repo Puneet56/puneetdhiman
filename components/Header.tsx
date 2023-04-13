@@ -5,6 +5,7 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
+
 	useEffect(() => {
 		const handleClose = () => {
 			if (menuOpen) {
