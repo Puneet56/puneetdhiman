@@ -2,12 +2,16 @@ import { useEffect, useState } from 'react';
 
 const images = [
 	{ name: 'reactLogo', animation: 'animate-spin', url: '/assets/react.png' },
-	{ name: 'htmlLogo', animation: 'animate-bounce', url: '/assets/html.png' },
-	{ name: 'p5Logo', animation: 'animate-pulse', url: '/assets/p5js.svg' },
+	{ name: 'nextjs', animation: '', url: '/assets/nextjs.svg' },
 	{
-		name: 'firebase',
-		animation: 'animate-pulse',
-		url: '/assets/firebase.png',
+		name: 'typescript',
+		animation: '',
+		url: '/assets/typescript.svg',
+	},
+	{
+		name: 'nodejs',
+		animation: 'animate-bounce',
+		url: '/assets/node-js.svg',
 	},
 ];
 
