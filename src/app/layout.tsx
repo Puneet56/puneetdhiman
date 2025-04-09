@@ -5,6 +5,11 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Puneet Dhiman',
   description: 'Portfolio of Puneet Dhiman',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({

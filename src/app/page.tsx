@@ -29,7 +29,7 @@ const projects = [
 export default function Home() {
   return (
     <main className="container mx-auto py-4">
-      <div className="ml-auto flex w-max items-center justify-center gap-4 font-mono">
+      <div className="ml-auto flex w-max items-center justify-center gap-8 font-mono">
 
         <Link href="https://github.com/Puneet56" target="_blank">
           <GitHubLogoIcon className="h-8 w-8" />
