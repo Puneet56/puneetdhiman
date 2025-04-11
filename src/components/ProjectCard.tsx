@@ -11,7 +11,7 @@ export function ProjectCard({ title, description, githubUrl, demoUrl }: ProjectC
   return (
     <div className="rounded-lg border p-6 shadow-sm transition-all hover:shadow-md">
       <h3 className="mb-2 text-xl font-semibold">{title}</h3>
-      <p className="mb-4 text-gray-600">{description}</p>
+      <p className="mb-4 text-gray-600 h-12">{description}</p>
       <div className="flex gap-4">
         <Link
           href={githubUrl}
@@ -26,7 +26,7 @@ export function ProjectCard({ title, description, githubUrl, demoUrl }: ProjectC
             target="_blank"
             className="text-sm text-blue-600 hover:underline"
           >
-            Live Demo
+            Visit ↗
           </Link>
         )}
       </div>
