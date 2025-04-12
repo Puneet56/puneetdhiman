@@ -17,7 +17,7 @@ const projects = [
     title: "Atomscript",
     description: "Simple interpreted programming language in go.",
     githubUrl: "https://github.com/Puneet56/atom_script",
-    demoUrl: "https://atom-script.vercel.app/"
+    demoUrl: "https://atomscript.puneetdhiman.com/"
   },
   {
     title: "Spark",
@@ -52,7 +52,7 @@ export default function Home() {
           Full Stack Developer & Programming Enthusiast
         </h2>
         <p className="text-lg text-gray-600">
-          I build modern web applications and tools that solve real-world problems. 
+          I build modern web applications and tools that solve real-world problems.
           Passionate about creating efficient, scalable, and user-friendly solutions.
         </p>
       </div>
