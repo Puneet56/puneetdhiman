@@ -5,6 +5,7 @@ import {
 } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { ProjectCard } from '@/components/ProjectCard'
+import { SketchTeaser } from '@/components/SketchTeaser'
 
 const projects = [
   {
@@ -67,6 +68,19 @@ export default function Home() {
             />
           ))}
         </div>
+      </section>
+
+      <section className="mt-24 mb-24">
+        <div className="mb-8 flex items-end justify-between gap-4">
+          <h2 className="text-3xl font-bold">Creative Coding</h2>
+          <Link
+            href="/sketches"
+            className="font-mono text-sm text-blue-600 hover:underline"
+          >
+            View all →
+          </Link>
+        </div>
+        <SketchTeaser />
       </section>
     </main>
   )
