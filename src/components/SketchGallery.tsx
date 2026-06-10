@@ -20,9 +20,17 @@ export function SketchGallery() {
     }
   }, [active])
 
+  const single = sketches.length === 1
+
   return (
     <>
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div
+        className={
+          single
+            ? 'mx-auto grid max-w-md gap-6'
+            : 'grid gap-6 sm:grid-cols-2'
+        }
+      >
         {sketches.map((entry) => (
           <button
             key={entry.slug}
@@ -31,7 +39,10 @@ export function SketchGallery() {
             className="group overflow-hidden rounded-lg border text-left shadow-sm transition-all hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             <div className="relative bg-black">
-              <SketchCanvas sketch={entry.sketch} aspectRatio={0.62} />
+              <SketchCanvas
+                sketch={entry.sketch}
+                aspectRatio={single ? 1.2 : 0.62}
+              />
               <span className="pointer-events-none absolute right-3 top-3 rounded-full border border-white/20 bg-black/40 px-2 py-0.5 text-xs text-white/80 opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
                 Expand ↗
               </span>
